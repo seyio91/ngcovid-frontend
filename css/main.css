@@ -1,0 +1,292 @@
+body{
+    margin: 0;
+    height: auto;
+    background-color: #32383d;
+    color: white;
+}
+
+/* .summary-card {
+    max-width: 480px;
+} */
+
+.card {
+    background-color: #454c52;
+}
+
+header {
+    margin-bottom: 20px;
+    display: block;
+}
+
+#landing {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.label-counter {
+    text-align: center;
+    background-color: #f5f5f5;
+    color: #777;
+    font-size: 19px;
+    text-transform: uppercase;
+    line-height: 40px;
+    font-family: roboto condensed,sans-serif;
+}
+
+.content-inner {
+    min-height: 500px;
+    font-size: 15px;
+    color: #222;
+}
+
+#maincounter-wrap {
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+    /* padding-top: 20px; */
+}
+
+#maincounter-wrap h1 {
+    margin: 0;
+    text-align: center;
+    /* padding-top: 20px; */
+}
+
+.maincounter-number {
+    font-weight: 700;
+    color: #696969;
+    font-size: 54px;
+}
+
+
+.analytics {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+table {
+    font-weight: 500;
+}
+
+table td:first-child {
+    font-weight: 700;
+}
+
+.recovery {
+    color:rgb(8, 180, 8);
+}
+
+.deaths {
+    color:rgba(255, 99, 132, 1);
+}
+
+.activecase {
+    color: rgba(245, 215, 110, 1);
+}
+
+.bg-recovery {
+    background-color:rgb(8, 180, 8);
+}
+
+.bg-fatality {
+    background-color:rgba(193, 4, 45, 0.7);
+}
+
+.table-dark td, .table-dark th, .table-dark thead th {
+    border-color: #32383d;;
+}
+
+.table-dark {
+    background-color: #454c52;
+}
+
+thead {
+    color: #b4b4b4;;
+}
+
+
+tbody {
+    font-weight: 600;
+}
+
+.dateselect {
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    background-color: rgb(153, 153, 153);
+    border-radius: 10%;
+}
+
+.dateselect:hover {
+    opacity: 0.4;
+}
+
+.mainhead a {
+    color: white;
+    font-weight: bold;
+
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(228, 228, 228);
+}
+
+.headinfo {
+    margin-bottom: 15px;
+}
+
+.data-label {
+    text-align: center;
+    padding: 10px 10px 0 10px;
+    font-weight: 600;
+}
+
+.main-title {
+    padding: 10px 10px 10px 0;
+    margin:  10px 10px 10px 0;
+}
+
+#timenav {
+    position: absolute;
+    right: 10px;
+}
+
+.btn-primary {
+    background-color: #1b95e0 !important;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.databody {
+    height: 100%;
+}
+
+marquee {
+    font-size: 14px;
+}
+
+#twitterimg{
+    width: 30x;
+    height: 30px;
+}
+
+#mailimg{
+    width: 30x;
+    height: 30px;   
+}
+
+.tablebox {
+    padding-left: 0.5em !important;
+    padding-right: 0.5em !important;
+}
+
+#iconimgtxt {
+    font-size: 12px;
+}
+
+
+/* responsive text queries */
+@media screen and (max-width: 992px) {
+    p,.btn,input,div,span,h4 {
+      font-size: 98%;
+    }
+    #iconimgtxt {
+        display: none;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    p,.btn,input,div,span,h4 {
+      font-size: 97%;
+    }
+
+    #iconimgtxt {
+        display: none;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    h1{
+        font-size: 24px;
+    }
+
+    .block marquee {
+        width: 100%;
+    }
+
+  }
+  @media screen and (max-width: 480px) {
+    .sm-hide {
+      display: none;
+    }
+
+}
+
+.testmain {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.block {
+    position: relative;
+}
+
+.progress {
+    position: relative;
+}
+
+.percent {
+    position: absolute;
+    top: -2px;
+    left: 45%;
+    color: black;
+    font-weight: 700;
+}
+
+span.receiverChat {
+    content: '';
+    /* margin: 5px;demo spacing */
+    display: inline-block;
+    vertical-align: middle;
+    width: 0; 
+    height: 0; 
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid #737373;
+  }
+
+.updates {
+    font-size: 16px;
+}
+
+.number {
+    left: 5%;
+    /* transform: translate(50%, 50%); */
+}
+
+.nopad {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.rdp {
+    padding-left: 0.09rem;
+    padding-right: 0.09rem;
+}
